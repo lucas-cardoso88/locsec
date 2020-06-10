@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
+
+/*=======================INTERFACE/ LINKS(a)=================================================================*/
+
+#interface {font-family: 'Bellota Text', cursive; border: .2px solid gray; border-bottom: none; width: 100%; }
+#interface a{ color: black; text-decoration: none; transition: .5s; }
+#interface a:hover { text-shadow: 2px 2px 2px gray; }
+
+/*=======================FOOTER=================================================================*/
+
+#interface #final { clear: both; border-bottom: .5px solid gray; border-top: .5px solid gray; }
+#interface #final #rodape1{ float: left; width: 25%; }
+#interface #final #rodape2{ float: left; text-align: right; width: 25%; }
+#interface #final #rodapecenter{ float: left; text-align: center; width: 50%; }
